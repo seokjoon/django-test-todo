@@ -1,11 +1,15 @@
 # Created by .ignore support plugin (hsz.mobi)
 
 .idea
-djangoTestTodo/__pycache__/
-db.sqlite3
-app1/migrations/__pycache__/
-app1/__pycache__/
+
 *.pyc
+app1/__pycache__/
+app1/migrations/__pycache__/
+db.sqlite3
+djangoTestTodo/__pycache__/
+todo/__pycache__/
+todo/migrations/__pycache__/
+
 mysql.cnf
 *.log
 .djangoTestTodo_uwsgi.ini
