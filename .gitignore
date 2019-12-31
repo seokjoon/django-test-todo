@@ -5,6 +5,7 @@ djangoTestTodo/__pycache__/
 db.sqlite3
 app1/migrations/__pycache__/
 app1/__pycache__/
+*.pyc
 mysql.cnf
 *.log
 .djangoTestTodo_uwsgi.ini
