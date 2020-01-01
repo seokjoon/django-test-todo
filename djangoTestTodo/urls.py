@@ -21,7 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # ####### BEGIN
-    # path('', include('todo.urls')),
     path('', include('todo.urls')),
+    path('todo', include('todo.urls')),
     # ####### END
 ]
