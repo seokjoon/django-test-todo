@@ -1,13 +1,14 @@
-# Created by .ignore support plugin (hsz.mobi)
-
 .idea
 
 *.pyc
 __pycache__
-app1/__pycache__/
-app1/migrations/__pycache__/
 db.sqlite3
 djangoTestTodo/__pycache__/
+
+app1/__pycache__/
+app1/migrations/__pycache__/
+rest/__pycache__/
+rest/migrations/__pycache__/
 todo/__pycache__/
 todo/migrations/__pycache__/
 
