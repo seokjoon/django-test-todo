@@ -3,6 +3,7 @@
 .idea
 
 *.pyc
+__pycache__
 app1/__pycache__/
 app1/migrations/__pycache__/
 db.sqlite3

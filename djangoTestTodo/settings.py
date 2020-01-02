@@ -40,6 +40,8 @@ INSTALLED_APPS = [
 
     # ####### BEGIN
     'app1',
+    'food',
+    'msgEmail',
     'todo',
     # ####### END
 ]
