@@ -22,6 +22,8 @@ urlpatterns = [
 
     # ####### BEGIN
     path('', include('todo.urls')),
+    path('msgEmail', include('msgEmail.urls')),
+    path('rest', include('rest.urls')),
     path('todo', include('todo.urls')),
     # ####### END
 ]
