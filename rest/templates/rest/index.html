@@ -216,6 +216,8 @@
                         </div>
 
                         <ul class="restaurantListDiv nav nav-pills nav-stacked">
+                            {% comment %}
+
                             <li class="category deactive">한식</li>
                             <ul class="restaurantList">
 
@@ -234,6 +236,7 @@
                                 </div>
 
                             </ul>
+
                             <li class="category deactive">중식</li>
                             <ul class="restaurantList">
 
@@ -270,6 +273,28 @@
                                 </div>
 
                             </ul>
+
+                            {% endcomment %}
+                            {% for category in categories %}
+                                <li class="category deactive">{{ category.title }}</li>
+                                <ul class="restaurantList">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <input name="check5" id="check5" type="checkbox">
+                                        </span>
+                                        <a href="/rest/show/5"><input name="res5" id="res5" type="text" class="form-control" disabled style="cursor: pointer;" value="1"></a>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <input name="check6" id="check6" type="checkbox">
+                                        </span>
+                                        <a href="/rest/show/6"><input name="res6" id="res6" type="text" class="form-control" disabled style="cursor: pointer;" value="2"></a>
+                                    </div>
+                                </ul>
+                            {% endfor %}
+
+
                         </ul>
                         <a href="/rest/create/" class="sendBtn btn btn-info" role="button">맛집 추가하기</a>
                     </div>
