@@ -12,7 +12,6 @@ def destroy(request):
 
 
 def index(request):
-
     todos = Todo.objects.all()
     outs = {'todos': todos}
     return render(request, 'todo/index.html', outs)
